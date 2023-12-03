@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class TugasNo1 {
+// ITERATIF
+public class TugasNo1Teori {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -9,13 +9,13 @@ public class TugasNo1 {
         int N = scanner.nextInt();
 
         // Memanggil fungsi iteratif
-        int hasilIteratif = hitungTotalIteratif(N);
+        int hasil = hitungTotal(N);
 
         // Mencetak hasil
-        System.out.println("Total iteratif dari 1 sampai " + N + " adalah: " + hasilIteratif);
+        System.out.println("Total iteratif dari 1 sampai " + N + " adalah: " + hasil);
     }
 
-    static int hitungTotalIteratif(int N) {
+    static int hitungTotal(int N) {
         int total = 0;
         for (int i = 1; i <= N; i++) {
             total += i;

@@ -21,7 +21,7 @@ public class TugasNo3 {
 
     static double hitungInvestasiEmas(int N, double jumlahUang) {
         // Basis kasus: jika N menjadi 0, kembalikan jumlah uang
-        double P;
+        double total;
         if (N == 0) {
             return jumlahUang;
         } else {
@@ -32,8 +32,8 @@ public class TugasNo3 {
             double keuntunganTahunIni = keuntunganTahunan * jumlahUang;
 
             // Rekursif: hitung investasi untuk tahun selanjutnya
-            P = hitungInvestasiEmas(N - 1, jumlahUang + keuntunganTahunIni);
-            return P;
+            total = hitungInvestasiEmas(N - 1, jumlahUang + keuntunganTahunIni);
+            return total;
         }
     }
 }

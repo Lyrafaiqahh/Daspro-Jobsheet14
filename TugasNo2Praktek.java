@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class TugasNo2 {
+// REKURSIF
+public class TugasNo2Praktek {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan bilangan bulat positif: ");
