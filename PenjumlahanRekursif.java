@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // REKURSIF
-public class TugasNo2Praktek {
+public class PenjumlahanRekursif {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan bilangan bulat positif: ");

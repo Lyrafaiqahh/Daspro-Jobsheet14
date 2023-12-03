@@ -19,7 +19,7 @@ public class DeretDescending {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input nilai n dari pengguna
+      
         System.out.print("Input nilai n: ");
         int jumlah = sc.nextInt();
 
